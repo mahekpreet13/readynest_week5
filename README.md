@@ -2,7 +2,7 @@
 
 This repository contains a complete data analytics solution built for the **ReadyNest Week 5 Task**. It covers everything from synthetic data generation and ETL to Machine Learning and an interactive dashboard.
 
-## 🚀 Features
+## Features
 
 - **Data Collection**: Generates a realistic synthetic e-commerce sales dataset (5,000+ rows).
 - **ETL Pipeline**: Cleans data, engineers advanced features (date parts, profit margins, anomalies), and exports cleaned data.
@@ -10,7 +10,7 @@ This repository contains a complete data analytics solution built for the **Read
 - **Predictive ML Model**: Uses a lightweight regression model to predict order revenue based on multiple features, evaluated with RMSE and R².
 - **Interactive Dashboard**: A **Streamlit** app featuring KPIs, interactive charts, and a real-time ML prediction interface.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 task4/
@@ -32,7 +32,7 @@ task4/
     └── business_insights.md  # Final insights & recommendations
 ```
 
-## 🛠️ Setup & Installation
+## Setup & Installation
 
 1. **Clone the repository** (or navigate to this directory)
 2. **Install dependencies**:
@@ -40,7 +40,7 @@ task4/
    pip install -r requirements.txt
    ```
 
-## 🔄 Running the Pipeline
+##  Running the Pipeline
 
 Run the pipeline sequentially to generate data, process it, train the model, and launch the dashboard:
 
@@ -65,7 +65,7 @@ Run the pipeline sequentially to generate data, process it, train the model, and
    streamlit run dashboard/app.py
    ```
 
-## 📊 Evaluation Criteria Covered
+##  Evaluation Criteria Covered
 
 - **Data Collection (1.5)**: Implemented realistic synthetic generation logic.
 - **Data Cleaning & ETL (1.5)**: Handled missing values, duplicates, and feature engineering.
