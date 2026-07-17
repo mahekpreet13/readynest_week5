@@ -61,12 +61,6 @@ task4/
 pip install -r requirements.txt
 ```
 
-If you want to run the full data pipeline and model-training scripts locally, install the extended set instead:
-
-```bash
-pip install -r requirements-dev.txt
-```
-
 ## Run the Pipeline
 
 Run the scripts in order:
@@ -112,6 +106,10 @@ dashboard/app.py
 ### Deployment Tip
 
 Streamlit Cloud will not run your local pipeline automatically. For the app to work on first deploy, commit the generated cleaned data and model files, or update the app to regenerate them if they are missing.
+
+If Streamlit Cloud builds your app with a newer Python version and dependency compilation fails, change the app's Python version in Streamlit Community Cloud advanced settings and redeploy. The docs note that Community Cloud defaults to Python 3.12 and lets you select the version during deployment. See:
+- https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/app-dependencies
+- https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy
 
 ## Outputs
 
