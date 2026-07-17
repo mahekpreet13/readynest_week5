@@ -61,6 +61,12 @@ task4/
 pip install -r requirements.txt
 ```
 
+If you want to run the full data pipeline and model-training scripts locally, install the extended set instead:
+
+```bash
+pip install -r requirements-dev.txt
+```
+
 ## Run the Pipeline
 
 Run the scripts in order:
